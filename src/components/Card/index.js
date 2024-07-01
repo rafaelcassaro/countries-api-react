@@ -3,14 +3,18 @@ import { BiLandscape, BiSolidLandscape } from "react-icons/bi";
 import { FaCity } from "react-icons/fa";
 import { FaLanguage, FaPeopleGroup } from "react-icons/fa6";
 import { IoIosResize } from "react-icons/io";
-import { IoLanguage } from "react-icons/io5";
+import { TiDelete } from "react-icons/ti";
 
-const Card = ({ country }) => {
+const Card = ({ country , deleteCountry}) => {
+
 
 
     return (
         <div className='card'>
-            <div className='header'>
+            <div className='delete_button' onClick={()=> deleteCountry(country.id)}>
+                <TiDelete size={35}/>
+            </div>
+            <div className='header' >
                 <img src={country.flag} />
 
                 <h2>{country.name} <br></br> {country.common} </h2>

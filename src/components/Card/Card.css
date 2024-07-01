@@ -4,7 +4,7 @@
   padding: 10px;
   border: solid black;
   border-radius: 15px;
-
+  position: relative;
   text-align: left;
 
   margin: 42px 32px 42px 32px;
@@ -19,6 +19,15 @@
   align-items: center;
 
 }
+
+.delete_button{
+  position: absolute;
+
+  left: 94.5%;
+  top: -3.2%;
+  cursor: pointer;
+}
+
 
 .p1{
     margin-left: 3px;
