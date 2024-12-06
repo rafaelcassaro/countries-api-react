@@ -1,5 +1,5 @@
 # ABOUT
-A website that consumes datas from a public country api and save on a card. 
+A website that consumes countries data from a public api and save on a card. 
 
 API:
 https://restcountries.com/
