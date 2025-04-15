@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "flag": "https://flagcdn.com/mx.svg",
+        "name": "United Mexican States",
+        "common": "Mexico",
+        "region": "Europe",
+        "subregion": "South America",
+        "capital": "Mexico City",
+        "area": 1964375,
+        "population": 128932753,
+        "languages": "Spanish",
+        "coatOfArms": "https://mainfacts.com/media/images/coats_of_arms/mx.svg"
+    },
+    {
+        "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+        "flag": "https://flagcdn.com/eg.svg",
+        "name": "Arab Republic of Egypt",
+        "common": "مصر",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "capital": "Cairo",
+        "area": 1002450,
+        "population": 102334403,
+        "languages": "Arabic",
+        "coatOfArms": "https://mainfacts.com/media/images/coats_of_arms/eg.svg"
+    },
+    {
+        "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+        "flag": "https://flagcdn.com/br.svg",
+        "name": "Federative Republic of Brazil",
+        "common": "Brasil",
+        "region": "Americas",
+        "subregion": "South America",
+        "capital": "Brasília",
+        "area": 8515767,
+        "population": 212559409,
+        "languages": "Portuguese",
+        "coatOfArms": "https://mainfacts.com/media/images/coats_of_arms/br.svg"
+    }
+]

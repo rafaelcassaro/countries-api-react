@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Card.css'
 import { BiLandscape, BiSolidLandscape } from "react-icons/bi";
 import { FaCity } from "react-icons/fa";
@@ -5,13 +6,12 @@ import { FaLanguage, FaPeopleGroup } from "react-icons/fa6";
 import { IoIosResize } from "react-icons/io";
 import { TiDelete } from "react-icons/ti";
 
-const Card = ({ country , deleteCountry}) => {
-
-
+const Card = ({ country , onDeleteCountry}) => {
+    const [isFlagLoaded, setIsFlagLoaded] = useState(false);
 
     return (
         <div className='card'>
-            <div className='delete_button' onClick={()=> deleteCountry(country.id)}>
+            <div className='delete_button' onClick={()=> onDeleteCountry(country.id)}>
                 <TiDelete size={35}/>
             </div>
             <div className='header' >
@@ -53,12 +53,17 @@ const Card = ({ country , deleteCountry}) => {
 
             <div className='coat_of_arms'>
                 <h3>COAT OF ARMS</h3>
-                <img src={country.coatOfArms} />
+                <img 
+                src={country.coatOfArms} 
+                alt={`${country.name} flag`} 
+                onLoad={() => setIsFlagLoaded(true)}
+                style={{ opacity: isFlagLoaded ? 1 : 0, transition: 'opacity 0.3s ease' }}
+                />
+                {!isFlagLoaded && <span>Carregando imagem...</span>}
             </div>
         </div>
 
     )
 }
-
 
 export default Card;
