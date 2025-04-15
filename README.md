@@ -1,8 +1,8 @@
 # ABOUT
-<<<<<<< HEAD
-=======
+Site que consome dados de países, vindo de uma api pública, e salva em um cartão.
+
 A website that consumes countries data from a public api and save on a card. 
->>>>>>> 2c0041a7ea834453244e28d4bdd5ac79ef215336
+
 
 API:
 https://restcountries.com/
@@ -10,9 +10,7 @@ https://restcountries.com/
 WEBSITE DEPLOY:
 https://countries-api-react-rafael-cassaro-costas-projects.vercel.app/
 
-<<<<<<< HEAD
-=======
-=======
+---------
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
->>>>>>> 2c0041a7ea834453244e28d4bdd5ac79ef215336
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
